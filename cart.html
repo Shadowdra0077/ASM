@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h2>Giỏ hàng của bạn</h2>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Hình</th>
+          <th>Tên sản phẩm</th>
+          <th>Số lượng</th>
+          <th>Giá</th>
+          <th>Thành tiền</th>
+          <th>Chỉnh Sửa</th>
+        </tr>
+      </thead>
+      <tbody id="cartTableBody"></tbody>
+    </table>
+
+    <div class="cart-total">
+      <h3>Tổng tiền: <span id="totalPrice">0 VND</span></h3>
+      <button id="checkoutBtn" class="checkout-btn">
+        <i class="fa-solid fa-credit-card"></i> Thanh toán
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+    <!-- <script>
+      const cart = new Cart();
+      cart.render();
+    </script> -->
+  </body>
+</html>

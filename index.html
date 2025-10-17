@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Online</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div class="slides">
+          <img src="img/header.webp" alt="Banner 1" class="active" />
+          <img src="img/header1.webp" alt="Banner 2" />
+          <img src="img/header2.webp" alt="Banner 3" />
+        </div>
+        <!-- Nút điều hướng -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+
+        <!-- Chấm tròn -->
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <h1 class="logo">Sản phẩm nổi bật</h1>
+      <div id="hot" class="products-container"></div>
+
+      <h1 class="logo">Sản phẩm điện thoại</h1>
+      <div id="phone" class="products-container"></div>
+
+      <h1 class="logo">Sản phẩm laptop</h1>
+      <div id="laptop" class="products-container"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
